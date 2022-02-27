@@ -8,6 +8,8 @@ public class Ex6_4 {
 		long result2 = mm.subtract(5L, 3L);
 		long result3 = mm.multiply(5L, 3L);
 		double result4 = mm.divide(5L, 3L);
+		
+		mm.printGugudan(12); 		// 구구단 3단을 출력
 
 		System.out.println("add(5L, 3L) = " + result1);
 		System.out.println("subtract(5L, 3L) = " + result2);
@@ -17,7 +19,18 @@ public class Ex6_4 {
 
 }
 
-class MyMath {
+class MyMath {	
+	
+	void printGugudan(int dan) {	// 구구단 메서드
+		for (int i = 1; i <= 9; i++) {
+			if(!(2 <= dan && dan <= 9))
+				return; 		// 입력받은 단(dan)이 2~9가 아니면 메서드를 종료하고 돌아가기
+						
+			System.out.printf("%d * %d = %d%n", dan, i, dan * i);
+		}
+		System.out.println();
+	}
+	
 	long add(long a, long b) {
 		long result = a + b;
 		return result;
