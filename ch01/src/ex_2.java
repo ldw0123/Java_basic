@@ -1,4 +1,5 @@
 // 2번 연습문제
+// 숫자와 연산자를 입력하면 계산해주는 프로그ㅍㅎㅍㅎ램
 import java.util.Scanner;
 
 public class ex_2 {
@@ -23,9 +24,7 @@ public class ex_2 {
 			System.out.println("연산 : " + num1 + " * " + num2 + " = " + (num1*num2) );
 		}
 		else if(sign.equals("/")) {
-			float n = num1/(float)num2;
-			System.out.println("연산 : " + num1 + " / " + num2 + " = " + String.format("%2f", n));
-			System.out.println(String.format("%2f", n));
+			System.out.println("연산 : " + num1 + " / " + num2 + " = " + num1/(float)num2);
 		}
 		else
 			System.out.println("잘못된 연산자입니다.");
