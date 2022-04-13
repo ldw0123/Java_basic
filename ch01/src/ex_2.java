@@ -1,5 +1,5 @@
 // 2번 연습문제
-// 숫자와 연산자를 입력하면 계산해주는 프로그ㅍㅎㅍㅎ램
+// 숫자와 연산자를 입력하면 계산해주는 프로그램
 import java.util.Scanner;
 
 public class ex_2 {
