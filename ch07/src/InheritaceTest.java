@@ -1,6 +1,6 @@
 // 상속과 포함
 
-class Point {
+class Point {	// 2차원 좌표의 한 점
 	int x;
 	int y;
 }
