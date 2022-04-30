@@ -1,4 +1,5 @@
 // super() 조상의 생성자
+
 public class Ex7_4 {
 
 	public static void main(String[] args) {
