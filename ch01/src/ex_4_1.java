@@ -5,7 +5,7 @@ public class ex_4_1 {
 
 	public static void main(String[] args) {
 		Random random = new Random(); 		// 랜덤 객체 생성
-		for(int i = 0; i < 10; i++) {		// 10번 난수 생성
+		for(int i = 0; i < 10; i++) {		// 10번 반복
 			int num1 = random.nextInt(26); 	// 0~25까지 int형 난수 생성
 			System.out.print((char)('A'+num1));	// 문자열A와 난수를 더해 문자로 변환
 		}
