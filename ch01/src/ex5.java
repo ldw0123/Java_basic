@@ -12,7 +12,7 @@ public class ex5 {
 		}
 
 	}
-	
+
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -21,25 +21,26 @@ public class ex5 {
 			System.out.println("전체 구구단을 출력하려면 2번을 입려하세요.");
 			System.out.println("프로그램을 종료하려면 3번을 입력하세요.");			
 			int num = scanner.nextInt();
-		if (num == 1) {
-			System.out.println("몇 단을 출력할까요?");
-			int x = scanner.nextInt();
+			if (num == 1) {
+				System.out.println("몇 단을 출력할까요?");
+				int x = scanner.nextInt();
 				System.out.println(x + "단");
 				for (int j = 1; j < 10; j++) {	// 1부터 9를 곱함
 					System.out.println(x + "x" + j + "=" + x*j);
 				}
-				System.out.println("");
+				System.out.println();
 			}
-		else if (num == 2) {
-			table();	// table 메서드 호출
-		}
-		else if (num == 3) {
-			System.out.println("프로그램 종료");
-			System.exit(0);
-		}
-		else {
-			System.out.println("잘못된 값을 입력하였습니다.");
-		}
+			else if (num == 2) {
+				table();	// table 메서드 호출
+			}
+			else if (num == 3) {
+				System.out.println("프로그램을 종료합니다.");
+				System.exit(0);
+			}
+			else {
+				System.out.println("잘못된 값을 입력하였습니다.");
+				System.out.println();
+			}
 		}
 
 	}
