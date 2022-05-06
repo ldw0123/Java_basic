@@ -7,7 +7,7 @@ public class Ex7_7 {
 		FireEngine fe2 = null;
 
 		fe.water();				// 참조변수 fe가 가리키는 객체 water() 호출
-		car = (Car)fe;			// (Car) 생략 가능
+		car = (Car)fe;			// 자손타입 -> 조상타입 형변환.(Car) 생략 가능
 	 // car.water(); 			-> 컴파일 에러. Car타입의 참조변수로는 water()를 호출할 수 없다
 		fe2 = (FireEngine)car;	// 조상타입 -> 자손타입 형변환. 생략 불가
 		fe2.drive();			// 참조변수 fe2가 가리키는 객체 drive() 호출
