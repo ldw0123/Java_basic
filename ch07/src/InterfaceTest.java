@@ -5,7 +5,7 @@ class A {
 	}
 }
 
-// B클래스의 선언과 구현을 분리
+// B클래스의 선언과 구현을 분리l
 interface I {
 	public void method();	// 추상 메서드 (선언부)
 }
