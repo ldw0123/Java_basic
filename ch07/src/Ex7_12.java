@@ -1,5 +1,5 @@
-// 내부 클래스의 제어자와 접근성
-public class Ex7_12 {
+// 내부 클래스의 제어자와 접근성 1
+class Ex7_12 {
 	class InstanceInner {
 		int iv = 100;
 //		static int cv = 100;			// 에러! static변수를 선언할 수 없다
